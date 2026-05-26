@@ -19,8 +19,9 @@ Este es de free codecamp. también estoy haciendo algunos cursos del Sena para m
 
 Hasta ahora Mayo 25 los conocimientos son:
 
-| ---- | ------ | ------- | 
+ 
 | Tecnología | Tarea | hecho |
+| ---- | ------ | ------- |
 | Html | Por el momento el esqueleto | x |
 | CSS | Decoración de elementos de la página | en proceso |
 |JAVASCRIPT | Pues no sé para que me servirá si estoy haciendo una página sencilla | falta | 
