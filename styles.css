@@ -1,0 +1,33 @@
+/* paleta de colores */
+/* #4A4466 */
+/* #6EADBC */
+/* #9FCBAD */
+/* #F1F7D4 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+button {
+  background: none;
+  border: none;
+  float: right;
+  margin: 1em;
+  cursor: pointer;
+}
+svg {
+  width: 15px;
+  height: 15px;
+}
+
+header {
+  background-color: #4a4466;
+  color: white;
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+/* tareas: Decorar un abuen footer; */
