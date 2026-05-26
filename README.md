@@ -25,3 +25,7 @@ Hasta ahora Mayo 25 los conocimientos son:
 | Html | Por el momento el esqueleto | x |
 | CSS | Decoración de elementos de la página | Por ahora está bien con flexbox  |
 |JAVASCRIPT | Pues no sé para que me servirá si estoy haciendo una página sencilla | falta | 
+
+
+Por alguna razón github no está actualizando la página
+
