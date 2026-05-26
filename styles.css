@@ -3,13 +3,17 @@
 /* #6EADBC */
 /* #9FCBAD */
 /* #F1F7D4 */
+@import url("https://googleapis.com");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f8fafc;
+}
 button {
   background: none;
   border: none;
@@ -26,8 +30,70 @@ header {
   background-color: #4a4466;
   color: white;
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+/* hacer el contenido de tarjetas que se extienda por toda la página  */
+main {
+  display: flex;
+  align-items: flex-start;
+}
+/*decorar los parrafos  */
+
+p {
+  white-space: pre-line;
+  /* text-indent: 5px;
+  letter-spacing: 2px; */
+  line-height: 1.6;
+  font-size: 1rem;
+  /* text-shadow: 1px 1px 1px #000; */
+  color: #2d3748;
+}
+
+h2 {
+  color: #1a202c;
+  font-weight: 700;
+}
+/* decorar el sections a ver que tal que sea modo como tarjetas */
+.tarjeta-azul {
+  background-color: #6eadbc;
+  padding: 25px;
+  margin: 25px;
+  border-radius: 15px;
+  box-shadow: #4a4466 5px 4px;
+}
+.bloque-interno {
+  background-color: #f7fafc;
+  border-left: 4px solid #6b46c1;
+  padding: 20px;
+}
+.caja-texto {
+  padding: 24px; /* Espacio uniforme alrededor de todo el texto */
+  margin-bottom: 16px;
 }
 /* tareas: Decorar un abuen footer; */
+footer {
+  background-color: #4a4466;
+  padding: 30px;
+  display: flex;
+  align-content: space-between;
+  margin: 0 auto;
+}
+footer > p {
+  color: white;
+}
+.btn {
+  background-color: #3498db;
+  margin: 0 30px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: white;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+.btn:hover {
+  background-color: #2980b9;
+  transform: translateY(-3px);
+}
