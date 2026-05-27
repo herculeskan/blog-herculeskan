@@ -2,7 +2,6 @@
 
 Ok, Para el momento estoy desarrollando una página sencillita para de esta manera ir ejercitando lo que voy aprendiendo en freecodecamp.
 
-
 ## Este será el roadmap y las tecnologías
 
 1. HTML
@@ -13,19 +12,15 @@ Ok, Para el momento estoy desarrollando una página sencillita para de esta mane
 5. Python
 6. Relational Data Bases Certification
 7. backend y Apis
-
-
 Este es de free codecamp. también estoy haciendo algunos cursos del Sena para mejorar. De verdad espero esta vez no rendirme de aprender a programar.
 
-Hasta ahora Mayo 25 los conocimientos son:
+Hasta el momento:
 
- 
 | Tecnología | Tarea | hecho |
-| ---- | ------ | ------- |
+| ---------- | ----- | ------ |
 | Html | Por el momento el esqueleto | x |
-| CSS | Decoración de elementos de la página | Por ahora está bien con flexbox  |
-|JAVASCRIPT | Pues no sé para que me servirá si estoy haciendo una página sencilla | falta | 
+| CSS | Decoración de elementos de la página. Por ahora está bien con flexbox | falta |
+| JAVASCRIPT | Pues no sé para qué me servirá si estoy haciendo una página sencilla | falta |
 
-
-Por alguna razón github no está actualizando la página
-
+-
+Por el momento la página se ve un poco presentable, quiero echarle slides pero parece que no se puede por el momento o aún no tenog esos conocimientos
