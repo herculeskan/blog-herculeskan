@@ -23,4 +23,5 @@ Hasta el momento:
 | JAVASCRIPT | Pues no sé para qué me servirá si estoy haciendo una página sencilla | falta |
 
 -
+
 Por el momento la página se ve un poco presentable, quiero echarle slides pero parece que no se puede por el momento o aún no tenog esos conocimientos
