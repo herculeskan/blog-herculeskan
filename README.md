@@ -23,5 +23,5 @@ Hasta el momento:
 | JAVASCRIPT | Pues no sé para qué me servirá si estoy haciendo una página sencilla | falta |
 
 -
+Se pretende que para la siguiente semana como mejorar, creo que está vez haré un mock up en algún software tipo figma pero software libre
 
-Por el momento la página se ve un poco presentable, quiero echarle slides pero parece que no se puede por el momento o aún no tenog esos conocimientos
