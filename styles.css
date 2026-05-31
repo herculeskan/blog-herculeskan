@@ -9,7 +9,7 @@
   --bg-oscuro: #261c37;
   --bg-tarjeta-clara: #eaeaea;
   --color-acento: #52bdb3;
-  
+
   /* Texto */
   --texto-oscuro: #111111;
   --texto-claro: #ffffff;
@@ -21,147 +21,43 @@
   box-sizing: border-box;
 }
 
-body,
-html {
-  font-family: "Inter", sans-serif;
-  background-color: #f8fafc;
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
+header {
+  background-color: var(--bg-oscuro);
+  width: 100%;
+  max-width: 1920px;
+  min-width: 371px;
+  font-size: 24px;
+  padding: 48px;
+  text-align: center;
+  color: var(--texto-claro);
 }
-main {
-  flex: 1;
-}
-btn {
-  background: none;
-  border: none;
-  float: right;
-  margin: 1em;
-  cursor: pointer;
-}
+header > nav,
 a {
+  font-size: 16px;
+  justify-content: center;
+  display: flex;
+  color: var(--texto-claro);
+  /* flex-direction: row; */
   text-decoration: none;
 }
-svg {
-  width: 15px;
-  height: 15px;
-  margin: 5px 10px 2px 0;
-}
-h2 {
-  text-decoration: underline;
-}
-header {
-  background-color: #4a4466;
-  color: white;
-  width: 100%;
-  padding: 1.5rem 2rem;
+ul {
   display: flex;
-  justify-content: center;
+  gap: 1em;
 }
-/* hacer el contenido de tarjetas que se extienda por toda la página  */
-.container-tarjetas {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 20px;
+li {
+  list-style-type: none;
+  margin: 0px auto;
+  /* border-left: 3px solid white; */
+  padding: 0 0 0 10px;
+  /* background-color: blue; */
+  transform: translate(10px, 25px);
 }
-@media (max-width: 768px) {
-  .container-tarjetas {
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
+a {
+  cursor: pointer;
 }
 
-/*decorar los parrafos */
-p {
-  white-space: pre-line;
-  /* text-indent: 5px;
-  letter-spacing: 2px; */
-  line-height: 1.6;
-  font-size: 1rem;
-  /* text-shadow: 1px 1px 1px #000; */
-  color: #2d3748;
+a:hover {
+  cursor: pointer;
+  border-left: 3px solid white;
+  padding: 0 0 0 10px;
 }
-
-h2 {
-  color: #1a202c;
-  font-weight: 700;
-}
-/* decorar el sections a ver que tal que sea modo como tarjetas */
-.tarjeta-azul {
-  background-color: #6eadbc;
-  width: 100%;
-  max-width: 450px;
-  height: 20%;
-  max-height: 250px;
-  padding: 25px;
-  margin: 25px;
-  border-radius: 15px;
-  box-shadow: #4a4466 5px 4px;
-  overflow: auto;
-}
-.bloque-interno {
-  background-color: #f7fafc;
-  border-left: 4px solid #6b46c1;
-  padding: 40px;
-}
-.caja-texto {
-  padding: 24px; /* Espacio uniforme alrededor de todo el texto */
-  margin-bottom: 16px;
-}
-/* tareas: Decorar un abuen footer; */
-footer {
-  background-color: #4a4466;
-  padding: 30px;
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: nowrap;
-}
-footer > p {
-  color: white;
-}
-footer > .btn {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 10px;
-}
-
-/* cuando sepa bien javascript le agrego botones para hacer slider */
-.btn {
-  background-color: #3498db;
-  margin: 0 30px;
-  padding: 12px 24px;
-  border-radius: 8px;
-  color: white;
-  transition:
-    background-color 0.3s ease,
-    transform 0.3s ease;
-}
-.btn:hover {
-  background-color: #2980b9;
-  transform: translateY(-3px);
-  /* }
-  .nav-btn {
-    background-color: #008cba;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  .nav-btn:hover {
-    background-color: #005f5f;
-  }
-
-  .anterior {
-    border-radius: 30px 0 0 30px;
-  }
-  .siguiente {
-    border-radius: 0px 30px 30px 0px;
-  } */
