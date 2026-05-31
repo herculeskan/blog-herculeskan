@@ -22,5 +22,9 @@ Hasta el momento:
 | CSS | Decoración de elementos de la página. Por ahora está bien con flexbox | falta |
 | JAVASCRIPT | Pues no sé para qué me servirá si estoy haciendo una página sencilla | falta |
 
--
+-------
 
+## Diseño de la página
+
+![Mobile first landing page](image.png)
+![Web Page Landing Page](image-1.png)

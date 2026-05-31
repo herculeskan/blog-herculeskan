@@ -3,6 +3,17 @@
 /* #6EADBC */
 /* #9FCBAD */
 /* #F1F7D4 */
+:root {
+  /* Paleta principal */
+  --bg-principal: #f4f4f6;
+  --bg-oscuro: #261c37;
+  --bg-tarjeta-clara: #eaeaea;
+  --color-acento: #52bdb3;
+  
+  /* Texto */
+  --texto-oscuro: #111111;
+  --texto-claro: #ffffff;
+}
 @import url("https://googleapis.com");
 * {
   margin: 0;
