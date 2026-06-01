@@ -9,6 +9,7 @@
   --bg-oscuro: #261c37;
   --bg-tarjeta-clara: #eaeaea;
   --color-acento: #52bdb3;
+  --verdecito: #9fcbad;
 
   /* Texto */
   --texto-oscuro: #111111;
@@ -27,7 +28,7 @@ header {
   max-width: 1920px;
   min-width: 371px;
   font-size: 24px;
-  padding: 48px;
+  padding: 28px;
   text-align: center;
   color: var(--texto-claro);
 }
@@ -53,11 +54,50 @@ li {
   transform: translate(10px, 25px);
 }
 a {
-  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  padding-bottom: 4px;
 }
-
 a:hover {
   cursor: pointer;
-  border-left: 3px solid white;
-  padding: 0 0 0 10px;
+  transition: background-size 0.3s ease-in-out;
+  border-left: 3px white solid;
+  border-radius: 2px;
+  padding: 0 0 0 4px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-bottom: 4px;
+  cursor: pointer;
+  /* Configuración del "borde" usando un fondo lineal */
+  background-image: linear-gradient(#ffffff, #ffffff);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  /* Transición inicial  */
+  transition: background-size 0.3s ease-in-out;
+}
+a:hover {
+  /* El ancho cambia al 100% al hacer hover */
+  background-size: 100% 2px;
+
+  /* Mantener otras propiedades del diseño anterior */
+  border-left: 3px white solid;
+  border-radius: 2px;
+  padding: 0 0 4px 4px;
+}
+main {
+  background-color: var(--bg-principal);
+}
+article {
+  background-color: var(--verdecito);
+  width: 50vw;
+  display: block;
+  margin-left: 40px;
+  padding: 50px;
+  border-radius: 15px;
+}
+h2 {
+  text-align: center;
 }
