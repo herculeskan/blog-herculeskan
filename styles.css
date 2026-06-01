@@ -87,17 +87,85 @@ a:hover {
   border-radius: 2px;
   padding: 0 0 4px 4px;
 }
-main {
-  background-color: var(--bg-principal);
+.social_link {
+  color: black;
 }
-article {
+
+/* el main que engloba toda la vaina nojoda */
+main {
+  /* background-color: var(--bg-principal); */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-start;
+  /* background-color: red; */
+}
+/* el primer article y presentación */
+#inicio {
   background-color: var(--verdecito);
-  width: 50vw;
-  display: block;
-  margin-left: 40px;
-  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  margin: 50px 0;
+  padding: 29px;
+
+  width: 500px;
   border-radius: 15px;
+  border: 1px solid black;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 h2 {
   text-align: center;
+}
+
+.subtitulo {
+  display: block;
+  color: #555555;
+  font-style: oblique;
+  margin-bottom: 10px;
+}
+.entry-container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+.entry {
+  background-color: var(--color-acento);
+  padding: 30px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid black;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: var(--bg-oscuro);
+  color: white;
+  padding: 30px 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.container_social-link {
+  display: flex;
+  flex-direction: row; /* Coloca los iconos uno al lado del otro */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--color-acento);
+  padding: 0 15px 50px 0;
+  border: 4px dotted black;
+  border-radius: 8px;
+}
+
+.social-link svg {
+  width: 15px; /* Obliga al SVG a no medir más de esto */
+  height: 15px;
+  vertical-align: middle;
+}
+.social-link {
+  margin: 40px;
 }
