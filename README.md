@@ -14,13 +14,11 @@ Ok, Para el momento estoy desarrollando una página sencillita para de esta mane
 7. backend y Apis
 Este es de free codecamp. también estoy haciendo algunos cursos del Sena para mejorar. De verdad espero esta vez no rendirme de aprender a programar.
 
-Hasta el momento:
+Cosas que hacer en Junio:
 
-| Tecnología | Tarea | hecho |
-| ---------- | ----- | ------ |
-| Html | Por el momento el esqueleto | x |
-| CSS | Decoración de elementos de la página. Por ahora está bien con flexbox | falta |
-| JAVASCRIPT | Pues no sé para qué me servirá si estoy haciendo una página sencilla | falta |
+- [ ] Hacer las entradas
+- [ ] Crear las entradas
+- [ ] Crear la entrada funcional
 
 -------
 
