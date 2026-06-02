@@ -169,3 +169,24 @@ footer {
 .social-link {
   margin: 40px;
 }
+/* A hacerlo responsive hellyeah */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column; /* Cambia de fila a columna (apila los bloques) */
+    align-items: center; /* Centra la presentación y los artículos */
+    margin: 0;
+    padding: 10px;
+  }
+
+  #inicio {
+    width: 90vw;
+    margin: 10px auto;
+  }
+  .entry-container {
+    width: 90vw;
+    margin-top: 20px;
+  }
+  .entry {
+    width: 100%;
+  }
+}
