@@ -26,5 +26,18 @@ Hasta el momento:
 
 ## Diseño de la página
 
-![Mobile first landing page](image.png)
-![Web Page Landing Page](image-1.png)
+- **Entrada Principal**
+
+![Index.html](images/index-html.png)
+
+- **Entrada Principal desde una vista móvil:**
+
+![index en el teléfono](images/Index-m.png)
+
+- **Artículos**
+
+![Artículo](images/Entrada.png)
+
+- **Vista de los artículos desde el teléfono**
+
+![Artículo (pantalla celular)](images/Entrada-mf.png)
