@@ -115,11 +115,6 @@ main {
   border: 1px solid black;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
-h2,
-h3 {
-  text-align: center;
-  margin: 10px auto;
-}
 
 .subtitulo {
   display: block;
@@ -208,10 +203,17 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin: 10px 5px 10px 25px;
 }
-
+p {
+  white-space: pre-line;
+}
 .container-page > h2 {
   font-size: 64px;
+}
+.container-page > h3 {
+  font-size: 32px;
+  text-align: left;
 }
 .portada {
   width: 30rem;
