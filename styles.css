@@ -115,8 +115,10 @@ main {
   border: 1px solid black;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
-h2 {
+h2,
+h3 {
   text-align: center;
+  margin: 10px auto;
 }
 
 .subtitulo {
@@ -189,4 +191,34 @@ footer {
   .entry {
     width: 100%;
   }
+}
+
+/* entrada desde afuera */
+.cover {
+  width: 25rem;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: var(--verdecito);
+}
+
+/* Entrada título */
+.container-page {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-page > h2 {
+  font-size: 64px;
+}
+.portada {
+  width: 30rem;
+  /* margin: 0 auto; */
+}
+.container-page > p {
+  font-size: 24px;
+  margin: 0 auto;
+  padding: 5px;
 }
