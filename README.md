@@ -16,7 +16,7 @@ Este es de free codecamp. también estoy haciendo algunos cursos del Sena para m
 
 Cosas que hacer en Junio:
 
-- [ ] Hacer las entradas
+- [] Hacer las entradas
 - [ ] Crear las entradas
 - [ ] Crear la entrada funcional
 
@@ -39,3 +39,5 @@ Cosas que hacer en Junio:
 - **Vista de los artículos desde el teléfono**
 
 ![Artículo (pantalla celular)](images/Entrada-mf.png)
+
+Hoy me siento un poco cansado para trabajar en el proyecto, lo siento :(
