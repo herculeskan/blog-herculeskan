@@ -224,3 +224,17 @@ p {
   margin: 0 auto;
   padding: 5px;
 }
+.entry-img {
+  width: 100%;
+  padding: 2px;
+}
+.subtitulo-img {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0;
+  margin: 0 0 20px 0;
+  text-align: center;
+  border-radius: 9px;
+}
+.bold {
+  font-weight: bolder;
+}
