@@ -16,9 +16,9 @@ Este es de free codecamp. también estoy haciendo algunos cursos del Sena para m
 
 Cosas que hacer en Junio:
 
-- [] Hacer las entradas
-- [ ] Crear las entradas
-- [ ] Crear la entrada funcional
+- [x] Hacer las entradas
+- [x] Crear las entradas
+- [x] Crear la entrada funcional
 
 -------
 
