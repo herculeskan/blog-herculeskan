@@ -143,6 +143,7 @@ header h1 {
 }
 
 .main-article-figure {
+<<<<<<< HEAD
   font-style: italic;
   color: rgba(128, 128, 128, 0.963);
 }
@@ -194,9 +195,68 @@ figcaption {
   width: 120px;
   height: 80px;
   border-radius: 6px;
+=======
+  width: 100%;
+  background-color: var(--color-acento); /* Contenedor con tu color de acento */
+  padding: 30px;
+  border-radius: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 25px;
+}
+
+.main-article-figure img {
+  max-width: 250px;
+  height: auto;
+  display: block;
+}
+
+.article-content p {
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: justify;
+  white-space: pre-line; /* Mantiene tus saltos de línea originales */
+}
+
+/* Tarjetas Laterales "Otras entradas" con Animación */
+.sidebar-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.entry-horizontal-card {
+  background-color: var(--bg-tarjeta-clara);
+  padding: 20px;
+  border-radius: 12px;
+>>>>>>> refs/remotes/origin/main
+  display: flex;
+  justify-content: center;
+  align-items: center;
+<<<<<<< HEAD
+=======
+  gap: 20px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.entry-horizontal-card:hover {
+  transform: translateX(
+    5px
+  ); /* Desplazamiento sutil hacia la derecha al hacer hover */
+}
+
+.thumb-box {
+  width: 120px;
+  height: 80px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+>>>>>>> refs/remotes/origin/main
   padding: 5px;
   flex-shrink: 0;
 }
