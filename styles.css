@@ -120,9 +120,71 @@ h3 {
   display: flex;
   flex-direction: column;
   margin-bottom: 100px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+
+  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3 ease;
+}
+
+.carta-entrada:hover {
+  transform: translateY(-8px); /* Eleva la tarjeta 8 píxeles hacia arriba */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); /* Hace la sombra más grande y difuminada */
+}
+.carta-entrada > a {
+  color: black;
+  text-decoration: none;
 }
 .imagen-contenedor img {
   width: 100%;
   height: 200px;
   object-fit: cover;
+  padding-bottom: 10px;
+}
+figcaption {
+  margin: 10px;
+}
+
+footer {
+  background-color: var(--bg-oscuro);
+  color: var(--texto-claro);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+footer ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+li > a {
+  text-decoration: none;
+  color: white;
+}
+footer p {
+  text-align: center;
+  align-self: center;
+  font-family: var(--letra-titulo);
+  font-weight: 100;
+}
+li {
+  margin: 15px;
+  font-size: small;
+}
+@media (max-width: 789px) {
+  .entrada-contenedor {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 15px;
+    padding: 10px;
+  }
+  .carta-entrada {
+    min-width: 80%;
+    scroll-snap-align: center;
+  }
 }
