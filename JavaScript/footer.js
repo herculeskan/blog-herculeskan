@@ -1,6 +1,6 @@
 const footerTemplate = document.createElement("template");
 
-footerTemplate.innerHTML = `<footer id="Contacto">
+footerTemplate.innerHTML = `<footer id="contacto">
         <p>Si me quieres encontrar, para más info, por acá:</p>
         <div class="container_social-link">
             <ul>

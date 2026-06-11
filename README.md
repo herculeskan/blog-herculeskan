@@ -14,10 +14,6 @@ Ok, Para el momento estoy desarrollando una página sencillita para de esta mane
 7. backend y Apis
 Este es de free codecamp. también estoy haciendo algunos cursos del Sena para mejorar. De verdad espero esta vez no rendirme de aprender a programar.
 
-### Cosas por hacer 
-- [] terminar la pagina de la entrada
-- [] mejorar los index 
-
 -------
 
 ## Diseño de la página
