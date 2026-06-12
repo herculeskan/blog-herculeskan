@@ -6,7 +6,7 @@ headerTemplate.innerHTML = `
     <nav class="nav">
       <ul>
         <li><a href="https://herculeskan.github.io/blog-herculeskan/">Home</a></li>
-        <li><a href="#entradas">Entradas</a></li>
+        <li><a href="/lista-entrada/lista_entradas.html">Entradas</a></li>
         <li><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
