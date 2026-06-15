@@ -2,7 +2,7 @@ const headerTemplate = document.createElement("template");
 
 headerTemplate.innerHTML = `
   <header>
-    <h1>BLOG DE HERCULES</h1>
+    <h1>🦍 BLOG DE HERCULES</h1>
     <nav class="nav">
       <ul>
         <li><a href="https://herculeskan.github.io/blog-herculeskan/">Home</a></li>
