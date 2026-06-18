@@ -23,3 +23,6 @@ Ok, Para el momento estoy desarrollando una página sencillita para de esta mane
 ![Artículo (pantalla celular)](images/Entrada-mf.png)
 
 
+la siguiente entrada sera de como degoogleada
+
+
