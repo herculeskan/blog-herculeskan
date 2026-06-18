@@ -1,3 +1,4 @@
+
 # Bienvenido al repositorio de mi blog
 
 Ok, Para el momento estoy desarrollando una página sencillita para de esta manera ir ejercitando lo que voy aprendiendo en freecodecamp.
@@ -23,6 +24,6 @@ Ok, Para el momento estoy desarrollando una página sencillita para de esta mane
 ![Artículo (pantalla celular)](images/Entrada-mf.png)
 
 
-la siguiente entrada sera de como degoogleada
+- [] la siguiente entrada sera de como degoogleada
 
 
