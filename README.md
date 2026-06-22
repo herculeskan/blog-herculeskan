@@ -29,5 +29,5 @@ Ok, Para el momento estoy desarrollando una página sencillita para de esta mane
 
 estoy bien encabronado hoy 
 
-
+debería inspirarme para algún tema 
 
